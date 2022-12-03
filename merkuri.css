@@ -1,0 +1,338 @@
+
+body {
+  background-image: url('/IMG/nothing_58b715b6c4bbd.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #070724;
+  color: white;
+  font-family: "Spartan", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.562rem;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  padding-top: 4.58rem;
+  font-family: "BPG Nateli Mtavruli", sans-serif;
+  font-weight:bold;
+
+}
+  
+
+
+.planet img{
+  width: 450px;
+  height: 450px;
+  overflow: hidden;
+  border-radius: 50%;
+ 
+  
+}
+ .planet{
+  width: 650px;
+  height: 650px;
+  
+ }
+ .nofull{
+  padding: 190px;
+  margin: -30px;
+ }
+
+
+
+ 
+ .box
+ {
+  background-image: url('/IMG/mercurybg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 650px;
+  width: 450px;
+  margin-top: -550px;
+  margin-left: 1100px;
+  border-radius: 10px;
+  overflow: hidden;
+ }
+ 
+.headerr{
+text-align: center;
+margin-top: 28px;
+font-weight:bold;
+  font-size: 40px;
+  font-weight: 2cm;
+  color: red; 
+  text-shadow:  1px 1px 1px black;
+}
+.box p {
+text-align: center;
+color: #fff;
+text-shadow:  1px 1px 1px black;
+
+
+  font-size:20px;
+  margin-top: 40px;
+  
+}
+.top {
+border: 1px solid red;
+width: 10cm;
+height: 1cm;
+display: flex;
+}
+.navlist{
+display: flex;  margin-top: -30px;
+margin-left: 16cm;
+margin-top: -70px;
+width: 1100px;
+}
+.navlist h3{
+margin-left: 57px;
+font-size: 25px;
+text-shadow: 2px 2px 60px blue;
+cursor: pointer;
+
+}
+.head {
+color: #fff;
+text-decoration: none;
+width: 150px;
+height: 1.2cm;
+margin-top: -42cm;
+margin-left: 30px;
+text-shadow: 2px 2px 60px blue;
+}
+
+
+
+
+
+.box a{
+
+font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 3px 5px 5px black;
+
+}
+.box h4{
+margin-left: 25px;
+  font-size: 20px;
+  color: #fff;
+
+  text-shadow: 3px 5px 5px black;
+
+  
+}
+#planet{
+border: 2px solid green;
+}
+.head{
+border: 2px solid green;
+}
+.planets{
+  margin-top: -1.4cm;
+  margin-left: 1.3cm;
+  border: 1px red;
+  position: absolute;
+  color: #fff;
+  text-shadow: 2px 2px 50px #fff;
+  cursor: pointer;
+}
+#planets{
+  text-decoration: none;
+  
+  
+  border: 1px red;
+  position: absolute;
+  color: #fff;
+  text-shadow: 2px 2px 50px #fff;
+  cursor: pointer;
+
+}
+.buttons{
+  width: 330px;
+  height: 250px;
+  margin-top: -8cm;
+  margin-left: 31cm;
+  
+}
+.buttons button{
+  justify-content: center;
+  align-items:center;
+  text-align: center;
+  display: flex;
+  width: 300px;
+  height: 50px;
+  background-color: gray;
+  color: #fff;
+  font-size: 23px;
+  margin-top: 30px;
+  border-radius: 15px;
+  cursor: pointer;
+  
+      background-color: transparent;
+      background-repeat:no-repeat;
+      border: 0.5px solid gray;
+      
+      box-shadow:  2px 2px 200px blue;
+      
+
+  
+}
+.overview{
+  background-color: purple !important;
+  transition: 0.3s;
+  
+}
+
+
+.overview:hover{
+  transition: 0.3s;
+  font-size: 25px;
+  background-color: transparent;
+  background-repeat:no-repeat;
+  border: 0.5px solid gray;
+
+  
+  
+  
+  
+
+} .structure:hover{
+  transition: 0.5s;
+  background-color: purple;
+  opacity: 90%;
+  box-shadow:  2px 2px 200px red;
+  font-size: 25px;
+
+
+}
+
+.geology:hover{
+  transition: 0.5s;
+  background-color: purple;
+  opacity: 90%;
+  box-shadow:  2px 2px 200px red;
+  font-size: 25px;
+
+
+
+  
+  
+}
+
+
+
+
+
+.geology{
+transition: 0.5s;
+}
+.structure{
+transition: 0.5s;
+}
+.geology{
+transition: 0.5s;
+}
+
+.earth{
+color: #fff !important;
+text-shadow: 3px 3px 550px red;
+
+
+}
+
+.navlist h3{
+color: #fff;
+transition: 0.5s;
+}
+#wikipedia{
+font-size: 20px;
+transition: 0.3s;
+}
+#wikipedia:hover{
+transition: 0.3s;
+font-size: 21px;
+color: rgb(179, 166, 166);
+}
+
+.navlist a {
+text-decoration: none;
+}
+.nofull{
+animation: cycle 2s ;
+
+}
+
+@keyframes cycle {
+0% {transform: rotate(0deg);}
+100%{transform: rotate(360deg);}
+}
+.mercury{
+  transition: 1s;
+  color: red !important ;
+  
+}
+.mercury:hover{
+  text-shadow: 3px 3px 550px purple;
+ font-size: 27px;
+  color: red !important;
+  text-shadow: 1px 1px 20px  blueviolet !important;
+}
+.venus{
+  transition: 1s;
+}
+.venus:hover{
+  color:brown !important;
+  text-shadow: 3px 3px 550px purple;
+ font-size: 27px;
+}
+.earth{
+  transition: 1s;
+}
+.earth:hover{
+  color: rgb(161, 142, 63) !important;
+  text-shadow: 3px 3px 550px purple;
+ font-size: 27px;
+}
+.mars{
+  transition: 1s;
+}
+.mars:hover{
+  color: #800000 !important  ;
+  text-shadow: 3px 3px 550px purple;
+ font-size: 27px;
+}
+.jupiter{
+  transition: 1s;
+}
+.jupiter:hover{
+  color: rgb(222, 165, 87) !important;
+  text-shadow: 3px 3px 550px purple;
+ font-size: 27px;
+} 
+.saturn{
+  transition: 1s;
+}
+.saturn:hover{
+  color: rgb(78, 57, 131) !important;
+  text-shadow: 3px 3px 550px purple;
+ font-size: 27px;
+} 
+.uranus{
+  transition: 1s;
+}
+.uranus:hover{
+  color: hsl(210, 100%, 25.1%) !important;
+  text-shadow: 3px 3px 550px purple;
+ font-size: 27px;
+} 
+.neptune{
+  transition: 1s;
+}
+.neptune:hover{
+  color: blue !important;
+  text-shadow: 3px 3px 550px purple;
+  font-size: 27px;
+} 
